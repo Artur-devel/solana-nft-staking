@@ -5,7 +5,7 @@ use spl_token::instruction::AuthorityType;
 declare_id!("Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS");
 const TRANSIENT_NFT_STAKE_SEED_PREFIX: &[u8] = b"transient";
 pub const METAPLEX_PROGRAM_ID: &'static str = "metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s";
-pub const SYMBOL: &[u8] = b"HVORIGINS";
+pub const SYMBOL: &[u8] = b"HVORIGINS"; 
 
 #[program]
 pub mod test_stake {
