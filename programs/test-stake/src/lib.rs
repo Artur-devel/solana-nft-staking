@@ -1,5 +1,5 @@
 use anchor_lang::prelude::*;
-use anchor_spl::token::{self, SetAuthority, Token, TokenAccount, Transfer};
+use anchor_spl::token::{self, SetAuthority, Token, TokenAccount, Transfer}; 
 use spl_token::instruction::AuthorityType;
 
 declare_id!("Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS");
