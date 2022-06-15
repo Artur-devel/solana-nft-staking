@@ -22,7 +22,7 @@ pub mod test_stake {
     }
 
     pub fn stake_nft(ctx: Context<StakeNFT>, symbol: String) -> ProgramResult {
-        let metaplex_pubkey = METAPLEX_PROGRAM_ID
+        let metaplex_pubkey = METAPLEX_PROGRAM_ID 
             .parse::<Pubkey>()
             .expect("Failed to parse Metaplex Program Id");
 
