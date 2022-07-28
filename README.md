@@ -1,5 +1,5 @@
 <div align="right">
-  <h1>@nabiAddress : This is my telegram</h1>
+  <h1>@nabidev : This is my telegram</h1>
   </div>
 <div align="center">
   <h1>Staking Contract with Anchor</h1>
