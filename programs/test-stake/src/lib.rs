@@ -12,7 +12,7 @@ pub mod test_stake {
     use super::*;
 
     pub fn initialize(ctx: Context<Initialize>, max_len: u64) -> ProgramResult {
-        let store = &mut ctx.accounts.store;
+        let store = &mut ctx.accounts.store; 
         store.is_initialized = true;
         store.staked_count = 0;
         store.max_items = max_len;
