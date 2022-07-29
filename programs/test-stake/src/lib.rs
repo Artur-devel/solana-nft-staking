@@ -18,7 +18,7 @@ pub mod test_stake {
         store.max_items = max_len;
         store.payer = *ctx.accounts.payer.key;
         store.stake_list = ctx.accounts.list.key();
-        Ok(())
+        Ok(()) 
     }
 
     pub fn stake_nft(ctx: Context<StakeNFT>, symbol: String) -> ProgramResult {
