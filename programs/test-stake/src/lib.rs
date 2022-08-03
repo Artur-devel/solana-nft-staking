@@ -8,7 +8,7 @@ pub const METAPLEX_PROGRAM_ID: &'static str = "metaqbxxUerdq28cj1RbAWkYQm3ybzjb6
 pub const SYMBOL: &[u8] = b"HVORIGINS"; 
 
 #[program] 
-pub mod test_stake {
+pub mod test_stake {  
     use super::*;
 
     pub fn initialize(ctx: Context<Initialize>, max_len: u64) -> ProgramResult {
